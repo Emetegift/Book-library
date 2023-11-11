@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books</title>
+    <link rel="stylesheet" href="lib.css" />
+  </head>
+  <body>
+    <form id="book" name="myBook" action="#">
+      <div>
+        <label for="title">Title: </label>
+        <input type="text" name="title" id="title" />
+      </div>
+      <br />
+      <div>
+        <label for="author">Author: </label>
+        <input type="text" name="author" id="author" />
+      </div>
+      <br />
+      <div>
+        <label for="pages">Pages: </label>
+        <input type="text" name="pages" id="pages" />
+      </div>
+      <br />
+
+      <br />
+      <div>
+        <select id="category" name="cagory">
+          <option value="Read">Read</option>
+          <option value="Not Read Yet">Not Read Yet</option>
+        </select>
+      </div>
+      <!-- <fieldset id="">
+        <legend>Read this book?</legend>
+        <label for="">Yes<input type="radio" name="radio" value="yes" /></label>
+        <label for="">No<input type="radio" name="radio" value="not" /></label>
+      </fieldset> -->
+      <br />
+      <!-- <button type="submit" id="delete-button">Delete Book</button> -->
+      <br />
+
+      <button type="submit" id="button">Save</button>
+    </form>
+    <ul id="book-list"></ul>
+    <script src="lib.js"></script>
+  </body>
+</html>

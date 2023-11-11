@@ -1,0 +1,27 @@
+body{
+    background: #eee;
+}
+
+#book{
+    background: rgb(214, 102, 102);
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid red;
+   margin-bottom: 10px;
+   color: #ffff;
+
+}
+input {
+    background: #eee;
+    width: 300px;
+    /* align-items: right; */
+    border: 2px solid rgb(214, 102, 102);
+}
+fieldset {
+    width: 50px;
+}
+#submit{
+  justify-self: center;
+  /* width: 100px; */
+}
